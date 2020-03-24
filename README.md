@@ -1,9 +1,9 @@
 # Semana-OmniStack-11.0
 
 É necessário antes de fazer quanquer coisa instalar o node e o npm, neste projeto foram utilizados respectivamente as verções v12.16.1 e 6.13.4.
-Execute "installLinux.sh" ou "installWindows.bat" para instalar todas as dependencias
-Execute dentro da pasta backend "npm start" para iniciar o backend
-Execute dentro da pasta frontend "npm start" para iniciar o frontend
+Execute "installLinux.sh" ou "installWindows.bat" para instalar todas as dependencias.
+Execute dentro da pasta backend "npm start" para iniciar o backend.
+Execute dentro da pasta frontend "npm start" para iniciar o frontend.
 
 comandos executados até agora:
 

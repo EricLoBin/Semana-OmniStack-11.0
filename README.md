@@ -39,3 +39,9 @@ comandos executados até agora:
 			npm install react-router-dom
 	// ininiciar
 	npm start
+
+
+// cliente http
+	//instalar
+		npm install axios
+		

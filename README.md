@@ -34,9 +34,8 @@ comandos executados até agora:
 	npx create-react-app frontend
 	//icone
 	npm install react-icons
+	// configuração de rotas
+		// installar
+			npm install react-router-dom
 	// ininiciar
 	npm start
-
-// configuração de rotas
-	// installar
-	npm install react-router-dom

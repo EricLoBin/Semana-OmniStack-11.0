@@ -57,3 +57,10 @@ comandos executados até agora:
 		expo init /*nome*/
 	//iniciar
 		expo start / ou / npm start
+	//configuração de rotas
+		//instalar
+			npm install @react-navigation/native
+			//instalar dependencias do expo
+				expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+				//instalar tipo de navegação
+					npm install @react-navigation/stack //navegação por botões

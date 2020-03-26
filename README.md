@@ -69,3 +69,5 @@ comandos executados até agora:
 	//instalar ferramenta
 		//escrever email
 			expo install expo-mail-composer
+		//ferramenta
+			npm install intl

@@ -64,3 +64,5 @@ comandos executados até agora:
 				expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 				//instalar tipo de navegação
 					npm install @react-navigation/stack //navegação por botões
+					//instalar constantes dos dispositivos
+						expo install expo-constants

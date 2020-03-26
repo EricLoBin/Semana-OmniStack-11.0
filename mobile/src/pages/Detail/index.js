@@ -19,7 +19,7 @@ export default function Detail() {
     function sendMail() {
         MailComposee.composeAsync({
             subject: 'Herói do caso: Cadelinha atropelada',
-            recipientes: ['email@email.com'],
+            recipients: ['email@email.com'],
             body: message,
         })
     }

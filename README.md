@@ -53,5 +53,7 @@ comandos executados até agora:
 	//instalar expo
 		npm install -g expo-cli
 			//ele será instalado globalmente
-	//iniciar projeto mobile
+	//criar projeto mobile
 		expo init /*nome*/
+	//iniciar
+		expo start

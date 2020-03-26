@@ -9,4 +9,10 @@ cd frontend
 @echo on
 npm install
 @echo off
+cd..
+cd..
+cd mobile
+@echo on
+npm install
+@echo off
 pause

@@ -66,3 +66,6 @@ comandos executados até agora:
 					npm install @react-navigation/stack //navegação por botões
 					//instalar constantes dos dispositivos
 						expo install expo-constants
+	//instalar ferramenta
+		//escrever email
+			expo install expo-mail-composer

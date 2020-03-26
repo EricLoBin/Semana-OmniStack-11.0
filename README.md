@@ -44,4 +44,14 @@ comandos executados até agora:
 // cliente http
 	//instalar
 		npm install axios
+
 		
+
+
+
+// Criar app mobile
+	//instalar expo
+		npm install -g expo-cli
+			//ele será instalado globalmente
+	//iniciar projeto mobile
+		expo init /*nome*/

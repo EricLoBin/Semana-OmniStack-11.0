@@ -56,4 +56,4 @@ comandos executados até agora:
 	//criar projeto mobile
 		expo init /*nome*/
 	//iniciar
-		expo start
+		expo start / ou / npm start

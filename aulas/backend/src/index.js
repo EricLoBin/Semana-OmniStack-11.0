@@ -6,6 +6,8 @@ const routes = require('./routes');
 
 const cors = require('cors');
 
+const { errors } = require('celebrate');
+
 /*Definir que usará JSON para o corpo das requisições*/
 app.use(express.json());
 
@@ -45,6 +47,10 @@ app.use(cors(/*{
 }*/));
 
 app.use(routes);
+
+app.use(express.json());
+app.use(errors());
+
 
 app.get('/hi', (request, response) =>{
     return response.send('Hello World');

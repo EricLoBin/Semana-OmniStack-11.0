@@ -17,6 +17,8 @@ comandos executados até agora:
 		node index.js //<- sem o nodemon / com o nodemon ->// npm start
 	// acesso do frontend
 		npm install cors
+	//fazer validações
+		npm install celebrate
 
 
 //BD Query Builder instalar
@@ -71,3 +73,8 @@ comandos executados até agora:
 			expo install expo-mail-composer
 		//ferramenta
 			npm install intl
+
+
+
+//testes
+	npm install jest

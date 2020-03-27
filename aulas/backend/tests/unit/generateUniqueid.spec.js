@@ -1,5 +1,9 @@
+const generateUniqueid = require('../../src/unit/generateUniqueid')
+
 describe('Generate unique id',() => {
     it('should generate a unique id', () => {
-        expect(2 + 2).toBe(4);
+        const id = generateUniqueid();
+
+        expect(id).toHaveLength(8);
     });
 });

@@ -56,4 +56,4 @@ app.get('/hi', (request, response) =>{
     return response.send('Hello World');
 });
 
-app.listen(3333);
+module.exports = app;

@@ -78,3 +78,7 @@ comandos executados até agora:
 
 //testes
 	npm install jest
+	//cross env
+		npm install cross-env
+	//testes de comunicação
+		npm install supertest

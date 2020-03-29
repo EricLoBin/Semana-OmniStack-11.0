@@ -8,28 +8,28 @@ Execute dentro da pasta frontend "npm start" para iniciar o frontend.
 comandos executados até agora:
 
 ## Backend
-	npm init -y
-	npm install express
-	// criar (manualmente) arquivo index.js
-	// reiniciar backend automaticamente (-D significa dependencia de desenvolvimento)
-		npm install nodemon -D
-	// ininiciar
-		node index.js //<- sem o nodemon / com o nodemon ->// npm start
-	// acesso do frontend
-		npm install cors
-	//fazer validações
-		npm install celebrate
+- npm init -y
+- npm install express
+- ***criar (manualmente) arquivo index.js***
+- ***reiniciar backend automaticamente (-D significa dependencia de desenvolvimento)***
+	- npm install nodemon -D
+- ***ininiciar***
+	- node index.js ***<- sem o nodemon / com o nodemon ->*** npm start
+- ***acesso do frontend***
+	- npm install cors
+- ***fazer validações***
+	- npm install celebrate
 
 
 ## BD Query Builder instalar
-	npm install knex
-		//selecionar um dos BD
-		npm install pg //PostgreSQL
-		npm install sqlite3 //SQLite
-	//Criar arquivo de conexão
-		npx knex init
-	//Criar migrations
-		npx knex migrate:make /*nome*/
+- npm install knex
+	- selecionar um dos BD
+	- npm install pg //PostgreSQL
+	- npm install sqlite3 //SQLite
+- Criar arquivo de conexão
+	- npx knex init
+- Criar migrations
+	- npx knex migrate:make /*nome*/
 
 
 ## Frontend

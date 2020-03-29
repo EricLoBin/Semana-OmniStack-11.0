@@ -23,62 +23,62 @@ comandos executados até agora:
 
 ## BD Query Builder instalar
 - npm install knex
-	- selecionar um dos BD
-	- npm install pg //PostgreSQL
-	- npm install sqlite3 //SQLite
-- Criar arquivo de conexão
+	- ***selecionar um dos BD***
+	- npm install pg ***Para o PostgreSQL***
+	- npm install sqlite3 ***Para o SQLite***
+- ***Criar arquivo de conexão***
 	- npx knex init
-- Criar migrations
-	- npx knex migrate:make /*nome*/
+- ***Criar migrations***
+	- npx knex migrate:make **/*nome*/**
 
 
 ## Frontend
-	npx create-react-app frontend
-	//icone
-	npm install react-icons
-	// configuração de rotas
-		// installar
-			npm install react-router-dom
-	// ininiciar
-	npm start
+- npx create-react-app frontend
+- ***icone***
+	- npm install react-icons
+- ***configuração de rotas***
+	- ***installar***
+		- npm install react-router-dom
+- ***ininiciar***
+	- npm start
 
 
 ## cliente http
-	//instalar
-		npm install axios
+- ***instalar***
+	- npm install axios
 
 		
 
 
 
 ## Criar app mobile
-	//instalar expo
-		npm install -g expo-cli
-			//ele será instalado globalmente
-	//criar projeto mobile
-		expo init /*nome*/
-	//iniciar
-		expo start / ou / npm start
-	//configuração de rotas
-		//instalar
-			npm install @react-navigation/native
-			//instalar dependencias do expo
-				expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
-				//instalar tipo de navegação
-					npm install @react-navigation/stack //navegação por botões
-					//instalar constantes dos dispositivos
-						expo install expo-constants
-	//instalar ferramenta
-		//escrever email
-			expo install expo-mail-composer
-		//ferramenta
-			npm install intl
+- ***instalar expo***
+	- npm install -g expo-cli
+	- ***ele será instalado globalmente***
+- ***criar projeto mobile***
+	- expo init **/*nome*/**
+- ***iniciar***
+	- expo start **/ ou /** npm start
+- ***configuração de rotas***
+	- ***instalar***
+		- npm install @react-navigation/native
+		- ***instalar dependencias do expo***
+			- expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+			- ***instalar tipo de navegação***
+				- npm install @react-navigation/stack ***navegação por botões***
+				- ***instalar constantes dos dispositivos***
+					- expo install expo-constants
+- ***instalar ferramenta***
+	- ***escrever email***
+		- expo install expo-mail-composer
+	- ***ferramenta***
+		- npm install intl
 
 
 
 ## testes
-	npm install jest
-	//cross env
-		npm install cross-env
-	//testes de comunicação
-		npm install supertest
+- npm install jest
+- ***cross env***
+	- npm install cross-env
+- ***testes de comunicação***
+	- npm install supertest
